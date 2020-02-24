@@ -1,0 +1,20 @@
+h1 {
+	font-style: italic;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+body {
+	background-image: url("https://66.media.tumblr.com/b2247377db07072927cb04f9a34d5f40/0cee0e28ce8ee564-64/s540x810/07a3940bfd06e33f49363111ca2a87cc7255f537.jpg");
+ 	background-repeat: repeat;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+img {
+	cursor: pointer;
+}
