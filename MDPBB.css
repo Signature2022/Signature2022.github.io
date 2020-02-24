@@ -1,0 +1,26 @@
+h1 {
+	font-style: italic;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	font-style: italic;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+body {
+	background-image: url("https://media.giphy.com/media/xJcjCAV0c9bcQ/giphy.gif");
+	background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+img {
+	cursor: pointer;
+}

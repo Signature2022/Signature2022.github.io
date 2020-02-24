@@ -1,0 +1,20 @@
+p {
+	font-style: bold;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+body {
+	background-image: url("https://media3.giphy.com/media/KIj3V8rWCUUx2/source.gif");
+	background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+img {
+	cursor: pointer;
+}
