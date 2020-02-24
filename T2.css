@@ -1,0 +1,27 @@
+body {
+  background-color: orange;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  background-color: purple;
+}
+h2 {
+  background-color: purple;
+}
+h3 {
+  background-color: purple;
+}
+p {
+  background-color: yellow;
+}
+
+img {
+  border: solid 20px;
+  width: 500px;
+  height: 500px;
+}
+ 
