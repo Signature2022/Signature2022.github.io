@@ -1,0 +1,26 @@
+h1 {
+	font-family: 'Special Elite' ;
+	font-size: 75px;
+	color:white;
+	text-align: center;
+}
+p {
+	font-family: 'Special Elite' ;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+body {
+	background-image: url("https://media.giphy.com/media/CzSya2pluJUcw/giphy.gif");
+	background-size: cover;
+}
+div {
+	width: 300px;
+	margin: 0 auto;
+	border-color: white;
+	border-style: dotted dashed solid double;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-content: space-around;
+}

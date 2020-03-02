@@ -1,0 +1,21 @@
+h1 {
+	font-family: 'Special Elite' ;
+	font-size: 75px;
+	text-align: center;
+}
+p {
+	font-family: 'Special Elite' ;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+body {
+	background-image: url("https://media2.giphy.com/media/yOfwINp0DhyIE/source.gif");
+	background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
