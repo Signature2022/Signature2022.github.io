@@ -1,0 +1,26 @@
+h1 {
+	font-family: 'Special Elite' ;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	font-family: 'Special Elite' ;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+body {
+	background-image: url("https://data.whicdn.com/images/299930515/original.jpg");
+	background-size: cover;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+img {
+	cursor: pointer;
+}
