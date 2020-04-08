@@ -1,0 +1,38 @@
+h1 {
+	font-family: 'SFPixelateRegular' ;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	font-family:'SFPixelateRegular' ;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+h3 {
+	font-family:'SFPixelateRegular' ;
+	font-size: 50px;
+	color: green;
+	text-align: center;
+}
+
+h4 {
+  font-family:'SFPixelateRegular' ;
+  font-size: 50px;
+  color: blue;
+  text-align: center;
+}
+
+h5 {
+  font-family:'SFPixelateRegular' ;
+  font-size: 50px;
+  color: gray;
+  text-align: center;
+}
+body {
+	background-image: url("https://media3.giphy.com/media/6F7wXoXnTUC3u/source.gif");
+	background-size: cover;
+}
+
+

@@ -1,0 +1,88 @@
+h1 {
+	font-family: 'SFPixelateRegular' ;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	font-family:'SFPixelateRegular' ;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+p {
+	font-family:'SFPixelateRegular' ;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+body {
+	background-image: url("https://media.giphy.com/media/J3KELX2RqyQSI/giphy.gif");
+	background-size: cover;
+}
+
+.object {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:5%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 25%;
+  /*
+  position: relative;
+  animation-name: leaves;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; */
+}
+
+.fire{}
+
+img {
+	cursor: pointer;
+
+}
+
+@keyframes fire {
+  0%   { left:550px; top:0px;}
+  25%  { left:100px; top:0px;}
+  50%  { left:-400px; top:0px;}
+  75%  { left:100px; top:0px;}
+  100% { left:550px; top:0px;}
+}
+
+@keyframes leaves {
+  0%   { left:-400px; top:0px;}
+  25%  { left:100px; top:0px;}
+  50%  { left:550px; top:0px;}
+  75%  { left:100px; top:0px;}
+  100% { left:-400px; top:0px;}
+}
+
+.leafmov {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  animation-name: leaves;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.firemov {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: relative;
+  animation-name: fire;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+div {
+	width:1200px;
+}
+

@@ -1,0 +1,39 @@
+<head>
+	<title> Midterm Project </title>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixelated" type="text/css"/>
+	<link rel="stylesheet" href="RMTP3.css">
+	<script type="text/javascript">
+    var clicks = 0;
+
+    function offClick() {
+        clicks -= 1;
+        document.getElementById("clickx").innerHTML = clicks;
+    };
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    
+    </script>
+</head>
+
+<body>
+	<h1> One Click = One Person Saved </h1>
+	<h2> click the clean air </h2>
+	<div> 
+		<div1 class = "leafmov">
+		<img src = "https://lh3.googleusercontent.com/proxy/yW6itP4smMp97dJg8GHtQTceOD88HNKIzzUbtv6CrQfqNSThvha8R5o_XCgIaghGYV4x7IOS6dKc4AT7ql66KXi7aY1ZLxIx"
+			class = "object" onClick="onClick()">
+		</div1>
+		<div2 class = "firemov">
+			<img src = "https://lh3.googleusercontent.com/proxy/9irLYWa804n5c1CAZV15JdemnB6cXL95lzZjPrFQOoDlhjlnUmVp_7h1C8Cdyb8NbCB4QFhDnETVeqHgrKSv39nksvyHA7cH" 
+			class = "object" offClick="offClick()">
+		</div2>
+	</div>
+
+	
+    <p>People saved: <a id="clicks">0</a></p>
+     <a href="RMTP1.html"><p> Back </p></a>
+    <h2>Do Not Click The Deadly Air!</h2>
+
+</body>

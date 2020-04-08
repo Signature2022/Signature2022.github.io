@@ -1,0 +1,41 @@
+<head>
+	<title> Midterm Project </title>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/pixelated" type="text/css"/>
+	<link rel="stylesheet" href="RMTP2.css">
+	<script type="text/javascript">
+    var clicks = 0;
+
+    function offClick() {
+        clicks -= 1;
+        document.getElementById("clickx").innerHTML = clicks;
+    };
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    
+    </script>
+</head>
+
+<body>
+	<h1> One Click = One Sea Turtle Saved </h1>
+	<h2> click the bubbles </h2>
+	<div> 
+		<div1 class = "leafmov">
+		<img src = "https://www.pngkit.com/png/full/23-235287_water-bullets-pixel-art-bullets.png"
+			class = "object" onClick="onClick()">
+		</div1>
+		<div2 class = "firemov">
+			<img src = "https://lh3.googleusercontent.com/proxy/EeeaD76WyVjKvYC7wnMZhjIUoTWNAENOkR9feyp581-e_lPi3tYrilRvfJobHBB-FbZ5pYtFDy0XTO_7d34VPP_QYGdc7dhl"
+			class = "object" offClick="offClick()">
+		</div2>
+	</div>
+	
+	<img src = "https://lh3.googleusercontent.com/proxy/Ff_s35ZXmcY0oe3Gg-EIpCAMGudtfR4JlDFUx8w1vgfR62efCRCK5Jadc-dbvg6Z8LxdKgOnQnh3CreWbEjF9sU0KOUI_RbD" class = "center">
+
+	
+    <p> Turtles Saved: <a id="clicks">0</a></p>
+    <a href="RMTP1.html"><p> Back </p></a>
+    <h2>Do Not Click The Plastic!</h2>
+
+</body>
