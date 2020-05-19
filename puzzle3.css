@@ -1,0 +1,47 @@
+h1 {
+	font-family: 'SFPixelateRegular' ;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	font-family:'SFPixelateRegular' ;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+h3 {
+	font-family:'SFPixelateRegular' ;
+	font-size: 15px;
+	color: red;
+	text-align: center;
+}
+
+h4 {
+  font-family:'SFPixelateRegular' ;
+  font-size: 50px;
+  color: purple;
+  text-align: center;
+}
+
+h5 {
+  font-family:'SFPixelateRegular' ;
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ff4747;
+    font-size: 60px;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 7px;
+}
+body {
+	cursor: url(https://www.pinclipart.com/picdir/middle/9-91595_mesmerizing-transparent-png-mart-pikachu-png-clipart.png),auto;
+	background-image: url("https://sociorocketnewsen.files.wordpress.com/2015/06/pika5.png?w=640&h=324");
+	background-size: cover;
+}

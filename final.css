@@ -1,0 +1,36 @@
+h1 {
+	font-family: 'SFPixelateRegular' ;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+h2 {
+	font-family:'SFPixelateRegular' ;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+h3 {
+	font-family:'SFPixelateRegular' ;
+	font-size: 50px;
+	color: red;
+	text-align: center;
+}
+
+h4 {
+  font-family:'SFPixelateRegular' ;
+  font-size: 50px;
+  color: purple;
+  text-align: center;
+}
+
+h5 {
+  font-family:'SFPixelateRegular' ;
+  font-size: 50px;
+  color: orange;
+  text-align: center;
+}
+body {
+	background-image: url("https://i.pinimg.com/originals/49/7d/24/497d24c2f216e9bacffc639269c6f695.gif");
+	background-size: cover;
+}
