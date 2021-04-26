@@ -1,0 +1,16 @@
+h1 {
+	font-style: italic;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+p{
+	font-style: italic;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+body {
+	background-image: url("https://media.giphy.com/media/NnaWxY5zjKqwU/giphy.gif");
+	background-size: cover;
+}
