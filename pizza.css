@@ -23,7 +23,11 @@ body {
 
 }
 
+label{
+  font-family: 'SFPixelateRegular' ;
+   color: black;
 
+}
 
 
  a{
